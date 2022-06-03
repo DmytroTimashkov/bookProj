@@ -1,0 +1,672 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Prata&display=swap");
+.lato {
+  font-family: "Lato", sans-serif;
+}
+
+.prato {
+  font-family: "Prata", serif;
+}
+
+.getBook {
+  background-image: url("../images/bgOpenBook.png");
+  background-size: cover;
+  padding: 100px 0;
+}
+.getBook .label {
+  background-image: url("../images/labelBook.png");
+  background-size: cover;
+  position: absolute;
+  font-size: 24px;
+  bottom: -5%;
+  left: 21%;
+}
+.getBook .btn-custom {
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  padding: 30px 85px;
+  border-radius: 60px;
+  background: linear-gradient(90deg, #FF8A00, #FFB800);
+  box-shadow: 0px 20px 20px -10px rgba(255, 138, 0, 0.3);
+}
+.getBook .getBookText {
+  line-height: 1.3;
+  font-size: 64px;
+}
+.getBook img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1200px) {
+  .getBook {
+    padding: 80px 0;
+  }
+  .getBook .btn-custom {
+    padding: 20px 65px;
+  }
+}
+@media (max-width: 992px) {
+  .getBook {
+    padding: 50px 0;
+  }
+  .getBook img {
+    width: 80%;
+    height: 80%;
+  }
+  .getBook .getBookText {
+    font-size: 48px;
+  }
+  .getBook .label {
+    left: 25%;
+  }
+}
+@media (max-width: 768px) {
+  .getBook {
+    padding: 50px 0;
+  }
+  .getBook img {
+    width: 80%;
+    height: 80%;
+  }
+  .getBook .label {
+    left: 25%;
+  }
+  .getBook .btn-custom {
+    padding: 20px 0;
+    width: 100%;
+  }
+  .getBook .getBookText {
+    font-size: 44px;
+  }
+}
+@media (max-width: 578px) {
+  .getBook {
+    padding: 50px 0;
+  }
+  .getBook img {
+    width: 80%;
+    height: 80%;
+  }
+  .getBook .label {
+    font-size: 20px;
+  }
+  .getBook .btn-custom {
+    padding: 20px 0;
+    width: 100%;
+  }
+}
+.toWritter {
+  padding: 60px 0;
+}
+.toWritter .dataInputs {
+  padding: 32px 70px;
+  border-radius: 60px;
+  outline: none;
+  background-color: #F6ECF4;
+  font-size: 20px;
+  color: #3F001E;
+  border-width: 0;
+}
+.toWritter .dataInputs::-moz-placeholder {
+  color: #3F001E;
+}
+.toWritter .dataInputs::-webkit-input-placeholder {
+  color: #3F001E;
+}
+.toWritter .check {
+  width: 20px;
+  height: 20px;
+}
+.toWritter label {
+  font-size: 14px;
+  color: #3F001E;
+}
+.toWritter label a {
+  text-decoration: underline;
+  color: #3F001E;
+}
+.toWritter .btn-custom {
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  padding: 30px 0;
+  width: 100%;
+  border-radius: 60px;
+  background: linear-gradient(90deg, #FF8A00, #FFB800);
+  box-shadow: 0px 20px 20px -10px rgba(255, 138, 0, 0.3);
+}
+
+.magicBook {
+  background-image: url("../images/bgAfterEarth.png");
+  background-size: cover;
+  background-position-y: 0;
+}
+.magicBook img {
+  position: relative;
+  bottom: -55px;
+}
+.magicBook .firstQWrapper, .magicBook .secondQWrapper, .magicBook .thirdQWrapper, .magicBook .fourQWrapper, .magicBook .fiveQWrapper, .magicBook .sixQWrapper, .magicBook .sevenQWrapper, .magicBook .eightQWrapper {
+  background-color: #4D0037;
+  padding: 8px;
+  width: 50px;
+  color: #FF8A00;
+  border-radius: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.magicBook .firstQWrapper .firstQ, .magicBook .firstQWrapper .secondQ, .magicBook .firstQWrapper .thirdQ, .magicBook .firstQWrapper .fourQ, .magicBook .firstQWrapper .fiveQ, .magicBook .firstQWrapper .sixQ, .magicBook .firstQWrapper .sevenQ, .magicBook .firstQWrapper .eightQ, .magicBook .secondQWrapper .firstQ, .magicBook .secondQWrapper .secondQ, .magicBook .secondQWrapper .thirdQ, .magicBook .secondQWrapper .fourQ, .magicBook .secondQWrapper .fiveQ, .magicBook .secondQWrapper .sixQ, .magicBook .secondQWrapper .sevenQ, .magicBook .secondQWrapper .eightQ, .magicBook .thirdQWrapper .firstQ, .magicBook .thirdQWrapper .secondQ, .magicBook .thirdQWrapper .thirdQ, .magicBook .thirdQWrapper .fourQ, .magicBook .thirdQWrapper .fiveQ, .magicBook .thirdQWrapper .sixQ, .magicBook .thirdQWrapper .sevenQ, .magicBook .thirdQWrapper .eightQ, .magicBook .fourQWrapper .firstQ, .magicBook .fourQWrapper .secondQ, .magicBook .fourQWrapper .thirdQ, .magicBook .fourQWrapper .fourQ, .magicBook .fourQWrapper .fiveQ, .magicBook .fourQWrapper .sixQ, .magicBook .fourQWrapper .sevenQ, .magicBook .fourQWrapper .eightQ, .magicBook .fiveQWrapper .firstQ, .magicBook .fiveQWrapper .secondQ, .magicBook .fiveQWrapper .thirdQ, .magicBook .fiveQWrapper .fourQ, .magicBook .fiveQWrapper .fiveQ, .magicBook .fiveQWrapper .sixQ, .magicBook .fiveQWrapper .sevenQ, .magicBook .fiveQWrapper .eightQ, .magicBook .sixQWrapper .firstQ, .magicBook .sixQWrapper .secondQ, .magicBook .sixQWrapper .thirdQ, .magicBook .sixQWrapper .fourQ, .magicBook .sixQWrapper .fiveQ, .magicBook .sixQWrapper .sixQ, .magicBook .sixQWrapper .sevenQ, .magicBook .sixQWrapper .eightQ, .magicBook .sevenQWrapper .firstQ, .magicBook .sevenQWrapper .secondQ, .magicBook .sevenQWrapper .thirdQ, .magicBook .sevenQWrapper .fourQ, .magicBook .sevenQWrapper .fiveQ, .magicBook .sevenQWrapper .sixQ, .magicBook .sevenQWrapper .sevenQ, .magicBook .sevenQWrapper .eightQ, .magicBook .eightQWrapper .firstQ, .magicBook .eightQWrapper .secondQ, .magicBook .eightQWrapper .thirdQ, .magicBook .eightQWrapper .fourQ, .magicBook .eightQWrapper .fiveQ, .magicBook .eightQWrapper .sixQ, .magicBook .eightQWrapper .sevenQ, .magicBook .eightQWrapper .eightQ {
+  background-color: white;
+  text-align: center;
+  border-radius: 50px;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+.magicBook .firstQWrapper:hover, .magicBook .secondQWrapper:hover, .magicBook .thirdQWrapper:hover, .magicBook .fourQWrapper:hover, .magicBook .fiveQWrapper:hover, .magicBook .sixQWrapper:hover, .magicBook .sevenQWrapper:hover, .magicBook .eightQWrapper:hover {
+  background-color: white;
+  color: white;
+  transition: 500ms;
+  cursor: pointer;
+}
+.magicBook .firstQWrapper:hover .firstQ, .magicBook .firstQWrapper:hover .secondQ, .magicBook .firstQWrapper:hover .thirdQ, .magicBook .firstQWrapper:hover .fourQ, .magicBook .firstQWrapper:hover .fiveQ, .magicBook .firstQWrapper:hover .sixQ, .magicBook .firstQWrapper:hover .sevenQ, .magicBook .firstQWrapper:hover .eightQ, .magicBook .secondQWrapper:hover .firstQ, .magicBook .secondQWrapper:hover .secondQ, .magicBook .secondQWrapper:hover .thirdQ, .magicBook .secondQWrapper:hover .fourQ, .magicBook .secondQWrapper:hover .fiveQ, .magicBook .secondQWrapper:hover .sixQ, .magicBook .secondQWrapper:hover .sevenQ, .magicBook .secondQWrapper:hover .eightQ, .magicBook .thirdQWrapper:hover .firstQ, .magicBook .thirdQWrapper:hover .secondQ, .magicBook .thirdQWrapper:hover .thirdQ, .magicBook .thirdQWrapper:hover .fourQ, .magicBook .thirdQWrapper:hover .fiveQ, .magicBook .thirdQWrapper:hover .sixQ, .magicBook .thirdQWrapper:hover .sevenQ, .magicBook .thirdQWrapper:hover .eightQ, .magicBook .fourQWrapper:hover .firstQ, .magicBook .fourQWrapper:hover .secondQ, .magicBook .fourQWrapper:hover .thirdQ, .magicBook .fourQWrapper:hover .fourQ, .magicBook .fourQWrapper:hover .fiveQ, .magicBook .fourQWrapper:hover .sixQ, .magicBook .fourQWrapper:hover .sevenQ, .magicBook .fourQWrapper:hover .eightQ, .magicBook .fiveQWrapper:hover .firstQ, .magicBook .fiveQWrapper:hover .secondQ, .magicBook .fiveQWrapper:hover .thirdQ, .magicBook .fiveQWrapper:hover .fourQ, .magicBook .fiveQWrapper:hover .fiveQ, .magicBook .fiveQWrapper:hover .sixQ, .magicBook .fiveQWrapper:hover .sevenQ, .magicBook .fiveQWrapper:hover .eightQ, .magicBook .sixQWrapper:hover .firstQ, .magicBook .sixQWrapper:hover .secondQ, .magicBook .sixQWrapper:hover .thirdQ, .magicBook .sixQWrapper:hover .fourQ, .magicBook .sixQWrapper:hover .fiveQ, .magicBook .sixQWrapper:hover .sixQ, .magicBook .sixQWrapper:hover .sevenQ, .magicBook .sixQWrapper:hover .eightQ, .magicBook .sevenQWrapper:hover .firstQ, .magicBook .sevenQWrapper:hover .secondQ, .magicBook .sevenQWrapper:hover .thirdQ, .magicBook .sevenQWrapper:hover .fourQ, .magicBook .sevenQWrapper:hover .fiveQ, .magicBook .sevenQWrapper:hover .sixQ, .magicBook .sevenQWrapper:hover .sevenQ, .magicBook .sevenQWrapper:hover .eightQ, .magicBook .eightQWrapper:hover .firstQ, .magicBook .eightQWrapper:hover .secondQ, .magicBook .eightQWrapper:hover .thirdQ, .magicBook .eightQWrapper:hover .fourQ, .magicBook .eightQWrapper:hover .fiveQ, .magicBook .eightQWrapper:hover .sixQ, .magicBook .eightQWrapper:hover .sevenQ, .magicBook .eightQWrapper:hover .eightQ {
+  background-color: #4D0037;
+}
+.magicBook .firstQWrapper:hover .questionLeft, .magicBook .secondQWrapper:hover .questionLeft, .magicBook .thirdQWrapper:hover .questionLeft {
+  display: block;
+}
+.magicBook .fourQWrapper:hover .questionCenter, .magicBook .fiveQWrapper:hover .questionCenter {
+  display: block;
+}
+.magicBook .sixQWrapper:hover .questionRight, .magicBook .sevenQWrapper:hover .questionRight, .magicBook .eightQWrapper:hover .questionRight {
+  display: block;
+}
+.magicBook .firstQWrapper {
+  position: absolute;
+  bottom: 14%;
+  left: 22%;
+}
+.magicBook .secondQWrapper {
+  position: absolute;
+  bottom: 35%;
+  left: 28%;
+}
+.magicBook .thirdQWrapper {
+  position: absolute;
+  bottom: 57%;
+  left: 36%;
+}
+.magicBook .fourQWrapper {
+  position: absolute;
+  bottom: 38%;
+  left: 48%;
+}
+.magicBook .fiveQWrapper {
+  position: absolute;
+  bottom: 13%;
+  left: 48%;
+}
+.magicBook .sixQWrapper {
+  bottom: 57%;
+  position: absolute;
+  right: 37%;
+}
+.magicBook .sevenQWrapper {
+  position: absolute;
+  bottom: 35%;
+  right: 28%;
+}
+.magicBook .eightQWrapper {
+  position: absolute;
+  bottom: 14%;
+  right: 22%;
+}
+.magicBook .questionLeft {
+  position: absolute;
+  width: 250px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+  text-align: left;
+  bottom: 180%;
+  right: 0;
+  z-index: 2;
+  padding: 15px 30px;
+  background-size: cover;
+  background-image: url("../images/question.png");
+  display: none;
+  box-shadow: 0px 8px 10px rgba(77, 0, 39, 0.3);
+}
+.magicBook .questionLeft::after {
+  content: " ";
+  position: absolute;
+  right: 5px;
+  bottom: -25px;
+  border: 10px solid transparent;
+  border-top: 20px solid #310023;
+  border-radius: 5px;
+}
+.magicBook .questionCenter {
+  position: absolute;
+  width: 410px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+  text-align: left;
+  bottom: 180%;
+  right: -565%;
+  z-index: 2;
+  padding: 15px 30px;
+  background-size: cover;
+  background-image: url("../images/question.png");
+  display: none;
+  box-shadow: 0px 8px 10px rgba(77, 0, 39, 0.3);
+}
+.magicBook .questionCenter::after {
+  content: " ";
+  position: absolute;
+  right: 49%;
+  bottom: -25px;
+  border: 10px solid transparent;
+  border-top: 20px solid #310023;
+  border-radius: 5px;
+}
+.magicBook .questionRight {
+  position: absolute;
+  width: 250px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+  text-align: left;
+  bottom: 180%;
+  left: -50%;
+  z-index: 2;
+  padding: 15px 30px;
+  background-size: cover;
+  background-image: url("../images/question.png");
+  display: none;
+  box-shadow: 0px 8px 10px rgba(77, 0, 39, 0.3);
+}
+.magicBook .questionRight::after {
+  content: " ";
+  position: absolute;
+  left: 20px;
+  bottom: -25px;
+  border: 10px solid transparent;
+  border-top: 20px solid #310023;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .magicBook {
+    padding: 40px 0;
+  }
+  .magicBook .questionWrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .magicBook .questionWrapper .questionWidth {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .magicBook .questionWrapper .questionWidth .firstQWrapper, .magicBook .questionWrapper .questionWidth .secondQWrapper, .magicBook .questionWrapper .questionWidth .thirdQWrapper, .magicBook .questionWrapper .questionWidth .fourQWrapper, .magicBook .questionWrapper .questionWidth .fiveQWrapper, .magicBook .questionWrapper .questionWidth .sixQWrapper, .magicBook .questionWrapper .questionWidth .sevenQWrapper, .magicBook .questionWrapper .questionWidth .eightQWrapper {
+    position: static;
+  }
+  .magicBook .questionWrapper .questionWidth .firstQWrapper .questionLeft, .magicBook .questionWrapper .questionWidth .thirdQWrapper .questionLeft {
+    left: -50%;
+  }
+  .magicBook .questionWrapper .questionWidth .firstQWrapper .questionLeft::after, .magicBook .questionWrapper .questionWidth .thirdQWrapper .questionLeft::after {
+    right: 85%;
+  }
+  .magicBook .questionWrapper .questionWidth .fourQWrapper .questionCenter {
+    width: 250px;
+    right: 0;
+    bottom: 195%;
+    box-shadow: 0px 8px 5px rgba(77, 0, 39, 0.3);
+    padding: 10px 30px 0;
+    font-size: 20px;
+  }
+  .magicBook .questionWrapper .questionWidth .fourQWrapper .questionCenter::after {
+    bottom: -25px;
+    right: 5px;
+  }
+  .magicBook .questionWrapper .questionWidth .fiveQWrapper .questionCenter {
+    width: 250px;
+    right: -590%;
+    bottom: 195%;
+  }
+  .magicBook .questionWrapper .questionWidth .fiveQWrapper .questionCenter::after {
+    bottom: -25px;
+    right: 85%;
+  }
+  .magicBook .questionWrapper .questionWidth .sixQWrapper .questionRight, .magicBook .questionWrapper .questionWidth .eightQWrapper .questionRight {
+    left: -590%;
+  }
+  .magicBook .questionWrapper .questionWidth .sixQWrapper .questionRight::after, .magicBook .questionWrapper .questionWidth .eightQWrapper .questionRight::after {
+    left: 85%;
+  }
+}
+.answer {
+  color: #3F001E;
+  margin: 90px 0;
+}
+.answer h2 {
+  font-size: 48px;
+}
+.answer h2 span {
+  color: #FF8A00;
+}
+.answer .replyWrapper {
+  border: solid 2px #4D0037;
+  border-radius: 16px;
+  padding: 10px;
+}
+.answer .replyWrapper .reply {
+  padding: 50px 175px;
+  background-image: url("../images/answer.png");
+  background-size: cover;
+  font-size: 18px;
+}
+
+@media (max-width: 992px) {
+  .answer .replyWrapper .reply {
+    padding: 30px 125px;
+  }
+  .answer h2 {
+    font-size: 44px;
+  }
+}
+@media (max-width: 768px) {
+  .answer .replyWrapper .reply {
+    padding: 20px 50px;
+  }
+  .answer h2 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 576px) {
+  .answer .replyWrapper .reply {
+    padding: 20px 30px;
+  }
+}
+.comment {
+  background-image: url("../images/bgCitation.png");
+  background-size: cover;
+  padding: 90px 0;
+}
+.comment .insideComment {
+  border: solid 2px #4D0037;
+  padding: 30px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #3F001E;
+  height: 340px;
+}
+.comment .commentWrapper {
+  display: flex;
+  width: 100%;
+}
+.comment .customComment {
+  width: 50%;
+  border-radius: 10px;
+}
+.comment .customComment:first-child {
+  margin-right: 30px;
+}
+.comment li {
+  list-style: none;
+  font-size: 16px;
+  display: flex;
+}
+.comment li:not(:last-child) {
+  margin-bottom: 15px;
+}
+.comment li::before {
+  display: block;
+  content: " ";
+  background-image: url("../images/feather_feather.svg");
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
+}
+
+@media (max-width: 1200px) {
+  .comment .insideComment {
+    height: auto;
+  }
+}
+@media (max-width: 992px) {
+  .comment .commentWrapper {
+    flex-wrap: wrap;
+  }
+  .comment .customComment {
+    width: 100%;
+  }
+  .comment .customComment:first-child {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+}
+.afterEarth {
+  background-size: cover;
+  background-image: url("../images/bgAfterEarth.png");
+  padding: 90px 0;
+}
+.afterEarth h2 {
+  font-size: 48px;
+}
+.afterEarth .bookAfterEarthWrapper {
+  display: flex;
+  border: solid 2px black;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #e2dacb;
+}
+.afterEarth .btn-custom {
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  padding: 30px 0;
+  width: 100%;
+  border-radius: 60px;
+  background: linear-gradient(90deg, #FF8A00, #FFB800);
+  box-shadow: 0px 20px 20px -10px rgba(255, 138, 0, 0.3);
+}
+.afterEarth .afterTextWrapper {
+  border-radius: 10px;
+  color: #4D0037;
+  margin-bottom: 30px;
+}
+.afterEarth .afterTextWrapper .afterText {
+  font-weight: bold;
+  padding: 20px;
+  font-size: 20px;
+  border: #3F001E solid 2px;
+  border-radius: 5px;
+}
+
+@media (max-width: 992px) {
+  .afterEarth h2 {
+    font-size: 44px;
+  }
+}
+@media (max-width: 768px) {
+  .afterEarth h2 {
+    font-size: 40px;
+  }
+}
+.citation {
+  background-image: url("../images/bgCitation.png");
+  background-size: cover;
+  padding: 90px 0;
+}
+.citation .firstTextWrapper {
+  border-radius: 5px;
+  border: #4D0037 solid 2px;
+}
+.citation .firstTextWrapper .firstText {
+  font-size: 26px;
+  color: #3F001E;
+}
+.citation .btn-before {
+  background: linear-gradient(90deg, #FF8A00, #FFB800);
+  box-shadow: 0px 20px 20px -10px rgba(255, 138, 0, 0.3);
+  width: 80px;
+  height: 80px;
+}
+.citation .btn-after {
+  background: linear-gradient(90deg, #FFB800, #FF8A00);
+  box-shadow: 0px 20px 20px -10px rgba(255, 138, 0, 0.3);
+  width: 80px;
+  height: 80px;
+}
+
+.aboutWritter {
+  padding: 90px 0;
+}
+.aboutWritter h2 {
+  font-size: 48px;
+  margin-bottom: 70px;
+}
+.aboutWritter .replyWrapper {
+  border: solid 2px #4D0037;
+  border-radius: 16px;
+  padding: 10px;
+}
+.aboutWritter .replyWrapper .reply {
+  padding: 50px 50px;
+  background-image: url("../images/bgAboutWritter.png");
+  background-size: cover;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+@media (max-width: 992px) {
+  .aboutWritter h2 {
+    font-size: 44px;
+  }
+}
+@media (max-width: 768px) {
+  .aboutWritter h2 {
+    font-size: 40px;
+  }
+}
+.socialMedia {
+  background-image: url("../images/bgCitation.png");
+  background-size: cover;
+  padding: 90px 0;
+}
+.socialMedia h2 {
+  font-size: 48px;
+  margin-bottom: 70px;
+}
+.socialMedia .btnInsta {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 30px 0;
+  border-radius: 60px;
+  background: linear-gradient(90deg, #FFFF42, #FE444A, #BC79F0);
+}
+.socialMedia .btnFacebook {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 30px 0;
+  border-radius: 60px;
+  background: linear-gradient(90deg, #3A5C99, #0A41A5);
+}
+
+@media (max-width: 992px) {
+  .socialMedia h2 {
+    font-size: 30px;
+  }
+}
+.writterGift {
+  background-size: cover;
+  background-image: url("../images/bgAfterEarth.png");
+  color: #3F001E;
+  padding: 90px 0;
+}
+.writterGift h3 {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+.writterGift .descript {
+  font-size: 20px;
+}
+.writterGift .dataInputs {
+  padding: 32px 70px;
+  border-radius: 60px;
+  outline: none;
+  font-size: 20px;
+  color: #3F001E;
+  border-width: 0;
+}
+.writterGift .dataInputs::-moz-placeholder {
+  color: #3F001E;
+}
+.writterGift .dataInputs::-webkit-input-placeholder {
+  color: #3F001E;
+}
+.writterGift .check {
+  width: 20px;
+  height: 20px;
+}
+.writterGift label {
+  font-size: 14px;
+  color: #3F001E;
+}
+.writterGift label a {
+  text-decoration: underline;
+  color: #3F001E;
+}
+.writterGift .btn-custom {
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  padding: 30px 0;
+  width: 100%;
+  border-radius: 60px;
+  background: linear-gradient(90deg, #FF8A00, #FFB800);
+  box-shadow: 0px 20px 20px -10px rgba(255, 138, 0, 0.3);
+}
+.writterGift .giftDescriptWrapper {
+  margin-bottom: 70px;
+  border-radius: 10px;
+  background-image: url("../images/giftWritter.png");
+  background-repeat: no-repeat;
+  background-position-x: 90%;
+  background-position-y: bottom;
+  box-shadow: 0px 15px 10px rgba(77, 0, 39, 0.3);
+}
+.writterGift .giftDescript {
+  padding: 30px 0 30px 30px;
+  font-size: 20px;
+  border: #3F001E solid 2px;
+  border-radius: 5px;
+}
+
+@media (max-width: 992px) {
+  .writterGift h3 {
+    font-size: 44px;
+  }
+}
+@media (max-width: 768px) {
+  .writterGift h3 {
+    font-size: 40px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

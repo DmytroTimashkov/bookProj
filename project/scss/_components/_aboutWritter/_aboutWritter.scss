@@ -1,0 +1,20 @@
+.aboutWritter{
+    padding: 90px 0;
+    h2{
+        font-size: 48px;
+        margin-bottom: 70px;
+    }
+    .replyWrapper{
+        border:solid 2px #4D0037;
+        border-radius: 16px;
+        padding: 10px;
+        .reply{
+            padding: 50px 50px;
+            background-image: url('../images/bgAboutWritter.png');
+            background-size: cover;
+            font-size: 18px;
+            border-radius: 10px;
+            
+        }
+    }
+}

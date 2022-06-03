@@ -1,0 +1,23 @@
+@media (max-width:1200px){
+    .comment{
+        .insideComment{
+            height: auto;
+        }
+    }
+}
+@media (max-width:992px){
+    .comment{
+        .commentWrapper{
+            flex-wrap: wrap;
+        }
+        .customComment{
+            width: 100%;
+           
+        }
+        .customComment:first-child{
+            margin-right: 0;
+            margin-bottom: 30px;
+        }
+        
+    }
+}

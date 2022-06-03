@@ -1,0 +1,48 @@
+.comment{
+    background-image: url('../images/bgCitation.png');
+    background-size: cover;
+    padding: 90px 0;
+
+     .insideComment{
+         border: solid 2px #4D0037;
+         padding: 30px;
+         border-radius: 5px;
+         font-size: 18px;
+         color: #3F001E;
+         height: 340px;
+         
+     }
+     .commentWrapper{
+         display: flex;
+         width: 100%;
+         
+
+     }
+     .customComment{
+         width: 50%;
+         border-radius: 10px;
+     }
+     .customComment:first-child{
+         margin-right: 30px;
+     }
+     li{
+        list-style: none;
+        font-size: 16px;
+        display: flex;
+        
+     }
+     li:not(:last-child){
+         margin-bottom: 15px;
+     }
+     li::before{
+         display: block;
+         content: ' ';
+         background-image: url('../images/feather_feather.svg');
+         background-size: 16px 16px;
+         background-repeat: no-repeat;
+         height: 40px;
+         width: 40px;
+     }
+    
+
+}

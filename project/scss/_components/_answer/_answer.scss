@@ -1,0 +1,25 @@
+.answer{
+    color: #3F001E;
+    margin: 90px 0;
+    h2{
+        font-size: 48px;
+       
+        
+        span{
+            color: #FF8A00;
+        }
+    }
+    .replyWrapper{
+        border:solid 2px #4D0037;
+        border-radius: 16px;
+        padding: 10px;
+        .reply{
+            padding: 50px 175px;
+            background-image: url('../images/answer.png');
+            background-size: cover;
+            font-size: 18px;
+            
+        }
+    }
+
+}

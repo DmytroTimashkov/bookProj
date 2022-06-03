@@ -1,0 +1,36 @@
+.getBook{
+    background-image: url('../images/bgOpenBook.png');
+    background-size: cover;
+    padding: 100px 0;
+    .label{
+        background-image: url('../images/labelBook.png');
+        background-size: cover;
+        position: absolute;
+        
+        font-size: 24px;
+        bottom: -5%;
+        left: 21%;
+    }
+    .btn-custom{
+        font-weight: bold;
+        color: white;
+        font-size: 20px;
+        padding: 30px 85px;
+        border-radius: 60px;
+        background:linear-gradient(90deg, #FF8A00, #FFB800); 
+        box-shadow: 0px 20px 20px -10px rgba(255,138,0,0.3);
+    }
+    .getBookText{
+        line-height: 1.3;
+        font-size: 64px;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+
+
+

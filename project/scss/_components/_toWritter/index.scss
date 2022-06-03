@@ -1,0 +1,41 @@
+.toWritter{
+    padding: 60px 0;
+    .dataInputs{
+        padding: 32px 70px;
+        border-radius: 60px;
+        outline: none;
+        background-color: #F6ECF4;
+        font-size: 20px;
+        color:#3F001E;
+        border-width: 0;
+    }
+    .dataInputs::-moz-placeholder{
+         color: #3F001E;
+     }
+     .dataInputs::-webkit-input-placeholder{
+        color: #3F001E;
+     }
+     .check{
+         width: 20px;
+         height: 20px;
+     }
+     label{
+         font-size: 14px;
+         color: #3F001E;
+         a{
+             text-decoration: underline;
+             color: #3F001E;
+         }
+     }
+     .btn-custom{
+        font-weight: bold;
+        color: white;
+        font-size: 20px;
+        padding: 30px 0;
+        width: 100%;
+        border-radius: 60px;
+        background:linear-gradient(90deg, #FF8A00, #FFB800); 
+        box-shadow: 0px 20px 20px -10px rgba(255,138,0,0.3);
+     }
+         
+}

@@ -1,0 +1,170 @@
+.magicBook{
+    background-image: url('../images/bgAfterEarth.png');
+    background-size: cover;
+    background-position-y: 0 ;
+    img{
+        position: relative;
+         bottom: -55px
+    }
+    .firstQWrapper, .secondQWrapper , .thirdQWrapper , .fourQWrapper, .fiveQWrapper, .sixQWrapper, .sevenQWrapper, .eightQWrapper{
+        background-color: #4D0037;
+        padding: 8px;
+        width: 50px;
+        color: #FF8A00;
+        border-radius: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+        .firstQ, .secondQ , .thirdQ , .fourQ, .fiveQ, .sixQ, .sevenQ, .eightQ{
+            background-color: white;
+            text-align: center;
+            border-radius: 50px;
+            width: 100%;
+            height: 100%;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 20px;
+        }
+    }
+    .firstQWrapper:hover, .secondQWrapper:hover, .thirdQWrapper:hover, .fourQWrapper:hover, .fiveQWrapper:hover, .sixQWrapper:hover, .sevenQWrapper:hover, .eightQWrapper:hover{
+        background-color: white;
+        color: white;
+        transition: 500ms;
+        cursor: pointer;
+        .firstQ, .secondQ , .thirdQ , .fourQ, .fiveQ, .sixQ, .sevenQ, .eightQ{
+            background-color: #4D0037;
+        }
+    }
+    .firstQWrapper:hover .questionLeft, .secondQWrapper:hover .questionLeft, .thirdQWrapper:hover .questionLeft{
+        display: block;
+    }
+    .fourQWrapper:hover .questionCenter, .fiveQWrapper:hover .questionCenter{
+        display: block;
+    }
+    .sixQWrapper:hover .questionRight, .sevenQWrapper:hover .questionRight , .eightQWrapper:hover .questionRight{
+        display: block;
+    }
+    .firstQWrapper{
+        position: absolute;
+        bottom: 14%;
+        left: 22%;
+    }
+    .secondQWrapper{
+        position: absolute;
+        bottom: 35%;
+        left: 28%;
+    }
+    .thirdQWrapper{
+        position: absolute;
+        bottom: 57%;
+        left: 36%;
+    }
+    .fourQWrapper{
+        position: absolute;
+        bottom:38%;
+        left: 48%;
+    }
+    .fiveQWrapper{
+        position: absolute;
+        bottom: 13%;
+        left: 48%;
+    }
+    .sixQWrapper{
+        bottom: 57%;
+        position: absolute;
+        right: 37%;
+    }
+    .sevenQWrapper{
+    position: absolute;
+    bottom: 35%;
+    right: 28%;
+    }
+    .eightQWrapper{
+     position: absolute;
+     bottom: 14%;
+     right: 22%;
+    }
+    .questionLeft{
+        position: absolute;
+        width: 250px;
+        border-radius: 10px;
+        font-weight: bold;
+        color: white;
+        font-size: 18px;
+        text-align: left;
+        bottom: 180%;
+        right: 0;
+        z-index: 2;
+        padding: 15px 30px;
+        background-size: cover;
+        background-image: url('../images/question.png');
+        display: none;
+        box-shadow: 0px 8px 10px rgba(77, 0, 39, 0.3);
+    }
+    .questionLeft::after{
+        content: ' ';
+        position: absolute;
+        right: 5px;
+        bottom: -25px;
+        border: 10px solid transparent;
+        border-top: 20px solid #310023;
+        border-radius: 5px;
+       
+    }
+    .questionCenter{
+        position: absolute;
+        width: 410px;
+        border-radius: 10px;
+        font-weight: bold;
+        color: white;
+        font-size: 18px;
+        text-align: left;
+        bottom: 180%;
+        right: -565%;
+        z-index: 2;
+        padding: 15px 30px;
+        background-size: cover;
+        background-image: url('../images/question.png');
+        display: none;
+        box-shadow: 0px 8px 10px rgba(77, 0, 39, 0.3);
+    }
+    .questionCenter::after{
+        content: ' ';
+        position: absolute;
+        right: 49%;
+        bottom: -25px;
+        border: 10px solid transparent;
+        border-top: 20px solid #310023;
+        border-radius: 5px;
+    }
+    .questionRight{
+        position: absolute;
+        width: 250px;
+        border-radius: 10px;
+        font-weight: bold;
+        color: white;
+        font-size: 18px;
+        text-align: left;
+        bottom: 180%;
+        left: -50%;
+        z-index: 2;
+        padding: 15px 30px;
+        background-size: cover;
+        background-image: url('../images/question.png');
+        display: none;
+        box-shadow: 0px 8px 10px rgba(77, 0, 39, 0.3);
+    }
+    .questionRight::after{
+        content: ' ';
+        position: absolute;
+        left: 20px;
+        bottom: -25px;
+        border: 10px solid transparent;
+        border-top: 20px solid #310023;
+        border-radius: 5px;
+    }
+}
